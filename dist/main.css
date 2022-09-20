@@ -1,0 +1,40 @@
+/*!*************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/index.scss ***!
+  \*************************************************************************************************************************************/
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#container {
+  position: fixed;
+  top: 50;
+  left: 50;
+  background: rgb(10, 0, 29);
+  width: 100%;
+  height: 100%;
+}
+
+#canvas1 {
+  position: absolute;
+  top: 50;
+  left: 0;
+  width: 100%;
+  height: 94%;
+}
+
+#audio1 {
+  bottom: 0;
+  position: fixed;
+  left: 25px;
+  padding: 15px;
+}
+
+#fileupload {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 15px;
+  color: white;
+}
