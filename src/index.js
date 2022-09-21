@@ -1,7 +1,7 @@
-// const Heading = require("./scripts/heading");
+
 
 document.addEventListener('DOMContentLoaded', ()=> {
-    // const container = document.getElementById('container');
+    const container = document.getElementById('container');
     const canvas = document.getElementById('canvas1');
     const file = document.getElementById('fileupload')
     canvas.width = window.innerWidth;
@@ -10,10 +10,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
     let audioSource;
     let analyser;       
 
-// container.addEventListener('click', function(){
-//     // let audio1 = new Audio();
-//     // const audio1 = document.getElementById('audio1')
-//     // audio1.src = 'test.wav'
+
     const audioContext = new AudioContext()
     audio1.play();
     audioSource = audioContext.createMediaElementSource(audio1);
@@ -37,7 +34,6 @@ document.addEventListener('DOMContentLoaded', ()=> {
         requestAnimationFrame(animate);
     }
     animate();
-// })
 
     function drawVisualiser(bufferLength, x, barWidth, barHeight, dataArray){
         for (let i = 0; i < bufferLength; i++){
@@ -107,13 +103,11 @@ document.addEventListener('DOMContentLoaded', ()=> {
 
     
         };
-        
 
         
     }
 
     file.addEventListener('change', function(){
-
         const files = this.files;
         const audio1 = document.getElementById('audio1')
         audio1.src = URL.createObjectURL(files[0]);
