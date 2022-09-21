@@ -13,30 +13,39 @@
 </head>
 <body>
     <div class="topnav">
-        <a class="active" href="https://github.com/dlaucodes" target="_blank" rel="noopener noreferrer"><img src="Githublight.png" width="25" height="25"></a>
-            
-   
+        <a class="active" href="https://github.com/dlaucodes/JSProject" target="_blank" rel="noopener noreferrer">
+            <img src="Githublight.png" width="33" height="33">
+        </a>
         
-    <div class="dropdown">
-        <button class="dropbtn">About</button>
-            <div class="dropdown-content">
-                <p style="font-family: Helvetica;">  
-                    <br>
-                    <b>Aurora</b> is a Music Visualizer where a user can select an audio file from their local file source through the Choose File button on the bottom right and have it visually rendered in the graphics below.
-                </p>
-            </div>
+        <div class="dropdown">
+            <button class="dropbtn">About</button>
+            
+        </div>
+        <div>
+            <label style="display: none" for="fileupload">click here
+            </label>
+            <input type="file" id="fileupload" accept="'audio/*" />
+        </div>
     </div>
     
-   
-  
+    <canvas id="canvas1">
+ 
+
+    </canvas>
     <div id="container">
-        <canvas id="canvas1"></canvas>
-            <audio id="audio1" controls></audio>
-                <label for="file"></label>
-                    <input type="file" id="fileupload" accept="'audio/*" />
-        
+        <audio id="audio1" controls></audio>
     </div>
-   
+
+    <div class="modal-wrapper">
+        <div class="modal-inner">
+            <div class="modal-content">
+                <b>Aurora</b> is a music visualizer where a user can select an audio file from their local file source through the
+                Choose File button on the bottom left and have it visually rendered in the graphics below. Enjoy!
+            </div>
+            <span class="close-button">X</span>
+        </div>
+    </div>
+
   
 </body>
 </html>

@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
 
 
     const barWidth = canvas.width/bufferLength;
-    let barHeight;
+    let barHeight = 2;
     let x;
 
     function animate(){
@@ -114,5 +114,18 @@ document.addEventListener('DOMContentLoaded', ()=> {
         audio1.load();
         audio1.play();
     })
-})
+
+    const aboutBtn = document.querySelector('.dropbtn');
+    const modal = document.querySelector('.modal-wrapper');
+    const closeBtn = document.querySelector('.close-button');
+
+    aboutBtn.addEventListener("click", () => {
+        modal.classList.add("active");
+    });
+
+    closeBtn.addEventListener("click", () => {
+        modal.classList.remove("active");
+    });
+
+});
 
