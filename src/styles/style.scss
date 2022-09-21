@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-#container {
+.container {
     display: flex;
     // justify-content: center;
     position: absolute;
@@ -12,8 +12,8 @@
     bottom: 0;
     background: rgba(51, 51, 51, 0.533);
     width: 100%;
-    height: 50px;
-    z-index: 999;
+    height: 30px;
+   
     overflow: hidden;
 }
 
@@ -28,12 +28,6 @@
     background: rgb(49, 52, 111);
 
     
-}
-
-#audio1 {
-    width: 100%
-    
-
 }
 
 #fileupload {
@@ -137,15 +131,6 @@
     cursor: pointer;
 }
 
-audio::-webkit-media-controls-panel {
-    background-color: #38383894;
-}
-
-input[type=file]::-webkit-file-upload-button {
-    visibility: hidden;
-}
-
-
 .modal-wrapper {
     display: none;
     justify-content: center;
@@ -202,3 +187,15 @@ input[type=file]::-webkit-file-upload-button {
     
 }
 
+#audio1 {
+    padding: 0px 0px 0px
+    width: 75%
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #38383894;
+}
+
+input[type=file]::-webkit-file-upload-button {
+    visibility: hidden;
+}
