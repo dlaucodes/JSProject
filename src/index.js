@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
     analyser.connect(audioContext.destination);
     analyser.fftSize = 512;
     const bufferLength = analyser.frequencyBinCount;
-    const dataArray = new Uint8Array(bufferLength);
+    const dataArray = new Uint8Array(bufferLength* 4);
 
 
     const barWidth = canvas.width/bufferLength;
@@ -40,38 +40,74 @@ document.addEventListener('DOMContentLoaded', ()=> {
 // })
 
     function drawVisualiser(bufferLength, x, barWidth, barHeight, dataArray){
-        for (let i = 2; i < bufferLength; i++){
-        barHeight = dataArray[i] * 0.4;
+        for (let i = 0; i < bufferLength; i++){
+        barHeight = dataArray[i] * 4;
         ctx.save();
         ctx.translate(canvas.width/2, canvas.height/2);
-        ctx.rotate(i * 3.2);
-        const hue = i * 5;
-        ctx.fillStyle = 'hsl(' + hue + ',70%,' + barHeight + '%)';
-        ctx.strokeStyle = 'white';
-        ctx.fillRect(barHeight/2, barHeight * 2, barWidth * 2, barHeight * 1.5);
-        ctx.strokeRect(barHeight/2, barHeight * 1.9, barWidth * 2, barHeight *2)
-        
-        ctx.strokeRect(barHeight/2, barHeight * 2, barWidth * 2, barHeight * 2)
-        x += barWidth
+        ctx.rotate(i * 6.184);
+        const hue = 272 + i * 0.05;
+        ctx.fillStyle = 'hsl(' + hue + ',100%,50%)'
+        ctx.beginPath();
+        ctx.arc(10, barHeight/2, barHeight/2, 0, Math.PI /4)
+        ctx.fill();
+        ctx.stroke();
+        x += barWidth;
         ctx.restore();
+
     
         }
 
-         for (let i = 2; i < bufferLength; i++){
-        barHeight = dataArray[i] * 0.4;
+        for (let i = 0; i < bufferLength; i++){
+        barHeight = dataArray[i] * 2.5;
         ctx.save();
         ctx.translate(canvas.width/2, canvas.height/2);
-        ctx.rotate(i * 3.2);
-        const hue =  i * 0.8;
-        ctx.fillStyle = 'white';
-        ctx.strokeStyle = 'transparent';
-        ctx.fillRect(barHeight/2, barHeight * 2, barWidth * 2, barHeight * 1.2);
-        ctx.strokeRect(barHeight/2, barHeight * 1.9, barWidth * 2, barHeight *2) 
-
-        x += barWidth
+        ctx.rotate(-i * 5.184);
+        const hue = 180 + i * 0.02;
+        ctx.fillStyle = 'hsl(' + hue + ',100%,50%)'
+        ctx.beginPath();
+        ctx.arc(10, barHeight/2, barHeight/2, 0, Math.PI /8)
+        ctx.fill();
+        ctx.stroke();
+        x += barWidth;
         ctx.restore();
+
     
         }
+
+         for (let i = 0; i < bufferLength; i++){
+        barHeight = dataArray[i] * 2.5;
+        ctx.save();
+        ctx.translate(canvas.width/2, canvas.height/2);
+        ctx.rotate(i * 20.184);
+        const hue = 160 + i * 0.08;
+        ctx.fillStyle = 'hsl(' + hue + ',100%,50%)'
+        ctx.beginPath();
+        ctx.arc(50, barHeight/2, barHeight/2, 0, Math.PI /6)
+        ctx.fill();
+        ctx.stroke();
+        x += barWidth;
+        ctx.restore();
+
+    
+        }
+
+          for (let i = 0; i < bufferLength; i++){
+        barHeight = dataArray[i] * 2.5;
+        ctx.save();
+        ctx.translate(canvas.width/2, canvas.height/2);
+        ctx.rotate(i * 2.184);
+        const hue = 150 + i * 0.08;
+        ctx.fillStyle = 'hsl(' + hue + ',100%,50%)'
+        ctx.beginPath();
+        ctx.arc(50, barHeight/2, barHeight/2, 0, Math.PI /6)
+        ctx.fill();
+        ctx.stroke();
+        x += barWidth;
+        ctx.restore();
+
+    
+        }
+      
         
     }
 
