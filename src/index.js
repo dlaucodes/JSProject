@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
     analyser.connect(audioContext.destination);
     analyser.fftSize = 512;
     const bufferLength = analyser.frequencyBinCount;
-    const dataArray = new Uint8Array(bufferLength* 4);
+    const dataArray = new Uint8Array(bufferLength * 50);
 
 
     const barWidth = canvas.width/bufferLength;
@@ -45,17 +45,17 @@ document.addEventListener('DOMContentLoaded', ()=> {
         ctx.save();
         ctx.translate(canvas.width/2, canvas.height/2);
         ctx.rotate(i * 6.184);
-        const hue = 272 + i * 0.05;
+        const hue = 272 + i * 0.0;
         ctx.fillStyle = 'hsl(' + hue + ',100%,50%)'
         ctx.beginPath();
-        ctx.arc(10, barHeight/2, barHeight/2, 0, Math.PI /4)
+        ctx.arc(100, barHeight/2, barHeight/2, 0, Math.PI /4)
         ctx.fill();
         ctx.stroke();
         x += barWidth;
         ctx.restore();
 
     
-        }
+        };
 
         for (let i = 0; i < bufferLength; i++){
         barHeight = dataArray[i] * 2.5;
@@ -65,16 +65,16 @@ document.addEventListener('DOMContentLoaded', ()=> {
         const hue = 180 + i * 0.02;
         ctx.fillStyle = 'hsl(' + hue + ',100%,50%)'
         ctx.beginPath();
-        ctx.arc(10, barHeight/2, barHeight/2, 0, Math.PI /8)
+        ctx.arc(10, barHeight/2, barHeight/2, 0, Math.PI /4)
         ctx.fill();
         ctx.stroke();
         x += barWidth;
         ctx.restore();
 
     
-        }
+        };
 
-         for (let i = 0; i < bufferLength; i++){
+        for (let i = 0; i < bufferLength; i++){
         barHeight = dataArray[i] * 2.5;
         ctx.save();
         ctx.translate(canvas.width/2, canvas.height/2);
@@ -89,9 +89,9 @@ document.addEventListener('DOMContentLoaded', ()=> {
         ctx.restore();
 
     
-        }
+        };
 
-          for (let i = 0; i < bufferLength; i++){
+        for (let i = 0; i < bufferLength; i++){
         barHeight = dataArray[i] * 2.5;
         ctx.save();
         ctx.translate(canvas.width/2, canvas.height/2);
@@ -99,15 +99,16 @@ document.addEventListener('DOMContentLoaded', ()=> {
         const hue = 150 + i * 0.08;
         ctx.fillStyle = 'hsl(' + hue + ',100%,50%)'
         ctx.beginPath();
-        ctx.arc(50, barHeight/2, barHeight/2, 0, Math.PI /6)
+        ctx.arc(10, barHeight/2, barHeight/2, 0, Math.PI /6)
         ctx.fill();
         ctx.stroke();
         x += barWidth;
         ctx.restore();
 
     
-        }
-      
+        };
+        
+
         
     }
 
