@@ -27,12 +27,6 @@
 Music Visualization is implemented on canvas which takes in a sound input source.  Web Audio API takes in the waveform and creates a Analyser node which then can be accessed by linking it to the frequencyBinCount method. By accessing this node, we have access to the frequency data within the generated array to which we can select certain aspects to be animated.
 </p>
 <br>
-Early Development Layout Planning:
-<br>
-<p>
-<img src="https://i.imgur.com/aM43UEb.png">
-</p>
-<br>
 
 Working Screenshot:
 <br>
@@ -47,14 +41,23 @@ Working Screenshot:
 <ul>
     <li> Vanilla Javascript
     <li> HTML/CSS
-    <li> Canvas API
+    <li> Canvas
     <li> Web Audio API
 </ul>
 <br>
 <br>
 
+## Future Features
+<br>
+<ul>
+    <li> Live audio feed implementation
+    <li> Different visualizer selections
+</ul>
+<br>
+
+
 ## Credits & Resources
 <ul>
-    Credit to: Franks Laboratory for help with understanding and implementing concepts related to use of Vanilla JS, HTML, Canvas and Webaudio API integration.
+    Credit to: Franks Laboratory for help with understanding and implementing concepts related to use of Vanilla Javascript, HTML/CSS, Canvas and Webaudio API integration.
     <a href="https://www.youtube.com/c/Frankslaboratory/">Franks laboratory</a>
 </ul>
