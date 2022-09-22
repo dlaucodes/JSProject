@@ -26,10 +26,10 @@
     <li>A production README
 </ul>
 
-## Wireframes
+## Screenshots and Demo
 <br>
 <p>
-    <img src="https://i.imgur.com/aM43UEb.png">
+    <img src="https://github.com/dlaucodes/JSProject/blob/main/assets/aurora.gif">
 </p>
 <ul>
     <li>Nav links include links to this project's Github repo, my LinkedIn
@@ -41,28 +41,18 @@
 
 
 ## Technologies, Libraries, APIs
-<b>This project will be implemented with the following technologies:</b>
 <br>
 <ul>
-    <li> The Canvas API to render the visualizer
-    <li> Webpack and Babel to bundle and transpile JS code
-    <li> npm to manage project dependencies
-    <li> web audio API
+    <li> Vanilla Javascript
+    <li> HTML/CSS
+    <li> Canvas API
+    <li> Web Audio API
 </ul>
 <br>
 <br>
 
-## Implementation Timeline
+## Credits & Resources
 <ul>
-    <li><b>Friday Afternoon & Weekend:</b> Setup Project, get webpack running.  Research implementation
-    <br>
-    of Canvas and respective aspects related to project to be rendered, Create a general template if possible.
-    <br>
-    <li><b>Monday:</b> Implement the core logic of the project.
-    <br>
-    <li><b>Tuesday:</b> Implement and test core logic of project, implement controls if possible.
-    <br>
-    <li><b>Wednesday:</b> Finish implementing user controls, styling, testing
-    <br>
-    <li><b>Thursday:</b> Deploy to Github pages.  Rewrite proposal as a poduction README.
+    Credit to: Franks Laboratory for help with understanding and implementing concepts related to use of Vanilla JS, HTML, Canvas and Web   audio API integration.
+    <a href="https://www.youtube.com/c/Frankslaboratory/">Franks laboratory</a>
 </ul>
