@@ -21,12 +21,9 @@
 </ul>
 <br>
 <br>
-<b>In addition, this project will include:</b>
-<ul>
-    <li>A production README
-</ul>
 
-## Screenshots and Demo
+
+## Demo
 <br>
 <p>
     <img src="https://github.com/dlaucodes/JSProject/blob/main/assets/aurora.gif">
@@ -38,6 +35,15 @@
     <li>Song countdown timer is the countdown of the remaining time of the song
     <li>Song Selection will be a menu of available tracks
 </ul>
+
+## Development
+<br>
+<img src="https://imgur.com/aM43UEb">
+
+<br>
+<br>
+<img src="https://github.com/dlaucodes/JSProject/blob/main/assets/ss.png">
+
 
 
 ## Technologies, Libraries, APIs
