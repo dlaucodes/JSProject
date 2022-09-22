@@ -5,8 +5,8 @@
 }
 
 .container {
-    // display: flex;
-    // justify-content: center;
+    display: flex;
+    justify-content: flex-start;
     position: absolute;
     padding: 12px 0px 0px 0px; 
     bottom: 0;
@@ -41,7 +41,7 @@
     cursor: pointer;
     border: 1px solid rgb(44, 170, 202);
     border-radius: 40px
-    // text-align: left;
+   
 
 }
 
@@ -89,11 +89,6 @@
     border: none;
 }
 
-// .dropdown {
-//     position: relative;
-//     display: block;
-    
-// }
 
 .dropdown-content {
     display: none;
@@ -158,10 +153,6 @@
 
 }
 
-// .modal-content {
-
-// }
-
 .close-button {
     position: absolute;
     top: 12px; 
@@ -199,6 +190,4 @@ audio::-webkit-media-controls-panel {
     border: 1px solid rgb(44, 170, 202);
 }
 
-// input[type=file]::-webkit-file-upload-button {
-//     visibility: hidden;
-// }
+
