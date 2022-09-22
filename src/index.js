@@ -1,6 +1,6 @@
 
 
-document.addEventListener('DOMContentLoaded', ()=> {
+document.addEventListener('click', ()=> {
     const container = document.getElementById('container');
     const canvas = document.getElementById('canvas1');
     const file = document.getElementById('fileupload')
