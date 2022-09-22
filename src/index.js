@@ -116,6 +116,15 @@ document.addEventListener('DOMContentLoaded', ()=> {
         audio1.play();
     })
 
+    file.addEventListener('click', function(){
+        const files = this.files;
+        const audio1 = document.getElementById('audio1')
+        audio1.src = URL.createObjectURL(files[0]);
+        audio1.load();
+        audio1.resume();
+        audio1.play();
+    })
+
     const aboutBtn = document.querySelector('.dropbtn');
     const modal = document.querySelector('.modal-wrapper');
     const closeBtn = document.querySelector('.close-button');
