@@ -9,24 +9,11 @@
 <br>
 <br>
 
-## Functionality & MVPs 
-
-<b>In Aurora, users will be able to:</b>
-<ul>
-    <li>Play Music
-    <li>See a visual representation of the beats
-    <li>See a countdown of remaning time for track selected
-    <li>Select an audio file
-    <li>Change color palettes
-</ul>
-<br>
-<br>
-
 
 ## Demo and Functionality
 <br>
 <p>
-    <img src="https://github.com/dlaucodes/JSProject/blob/main/assets/aurora.gif">
+    <img src="https://github.com/dlaucodes/JSProject/blob/main/assets/demo.gif">
 </p>
 <ul>
     <li>Nav links include links to this project's Github repo.
@@ -36,16 +23,22 @@
 </ul>
 
 ## Development
+<p>
+Music Visualization is implemented on canvas which takes in a sound input source.  Web Audio API takes in the waveform and creates a Analyser node which then can be accessed by linking it to the frequencyBinCount method. By accessing this node, we have access to the frequency data within the generated array to which we can select certain aspects to be animated.
+</p>
 <br>
-Early Development Blueprint:
+Early Development Layout Planning:
 <br>
+<p>
 <img src="https://i.imgur.com/aM43UEb.png">
+</p>
+<br>
 
-<br>
-<br>
 Working Screenshot:
 <br>
+<p>
 <img src="https://github.com/dlaucodes/JSProject/blob/main/assets/ss.png">
+</p>
 
 
 
@@ -62,6 +55,6 @@ Working Screenshot:
 
 ## Credits & Resources
 <ul>
-    Credit to: Franks Laboratory for help with understanding and implementing concepts related to use of Vanilla JS, HTML, Canvas and Web   audio API integration.
+    Credit to: Franks Laboratory for help with understanding and implementing concepts related to use of Vanilla JS, HTML, Canvas and Webaudio API integration.
     <a href="https://www.youtube.com/c/Frankslaboratory/">Franks laboratory</a>
 </ul>
