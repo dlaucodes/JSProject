@@ -7,8 +7,6 @@
     of the synchronized beats of the music.
 </p>
 <br>
-<br>
-
 
 ## Demo and Functionality
 <br>
