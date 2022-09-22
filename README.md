@@ -23,24 +23,27 @@
 <br>
 
 
-## Demo
+## Demo and Functionality
 <br>
 <p>
     <img src="https://github.com/dlaucodes/JSProject/blob/main/assets/aurora.gif">
 </p>
 <ul>
-    <li>Nav links include links to this project's Github repo, my LinkedIn
-    <li>Controls includes a drop down of choices in color palettes
+    <li>Nav links include links to this project's Github repo.
+    <li>Controls for user interaction for play, pause, volume, and track time selection.
     <li>Music Visualizer circle is the visual display of music beats
-    <li>Song countdown timer is the countdown of the remaining time of the song
-    <li>Song Selection will be a menu of available tracks
+    <li>User music file selection for visualizer.
 </ul>
 
 ## Development
 <br>
-<img src="https://imgur.com/aM43UEb">
+Early Development Blueprint:
+<br>
+<img src="https://i.imgur.com/aM43UEb.png">
 
 <br>
+<br>
+Working Screenshot:
 <br>
 <img src="https://github.com/dlaucodes/JSProject/blob/main/assets/ss.png">
 
