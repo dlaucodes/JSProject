@@ -1,6 +1,7 @@
 
-document.addEventListener('DOMcontentLoaded', ()=> {
-    const modal = document.querySelector('.modal-wrapper');
+
+document.addEventListener('DOMcontentLoaded', ()=>{
+    const modal = document.getElementById('modal-wrapper');
     modal.classList.add("active")
 })
 
@@ -142,5 +143,10 @@ document.addEventListener('click', ()=> {
         modal.classList.remove("active");
     });
 
+
+
+
 });
+
+
 
