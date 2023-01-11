@@ -1,9 +1,12 @@
 
 
-document.addEventListener('DOMcontentLoaded', ()=>{
-    const modal = document.getElementById('modal-wrapper');
-    modal.classList.add("active");
-})
+// 
+// document.addEventListener('DOMcontentLoaded', () => {
+//      const modal = document.querySelector('.modal-wrapper');
+//         modal.classList.add("active");
+//     });
+
+
 
 
 document.addEventListener('click', ()=> {
