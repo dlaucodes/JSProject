@@ -146,10 +146,24 @@ document.addEventListener('click', ()=> {
         modal.classList.remove("active");
     });
 
+    const profileBtn = document.querySelector('.profileButton');
+    const profmod = document.querySelector(".profile-moda-wrapper");
+    
+
+
+    profileBtn.addEventListener("click", () => {
+        profmod.classList.add("active");
+        console.log('hello')
+    });
+    
+    closeBtn.addEventListener("click", () => {
+        profmod.classList.remove("active");
+    });
 
 
 
 });
+
 
 
 
