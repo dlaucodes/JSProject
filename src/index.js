@@ -2,7 +2,7 @@
 
 document.addEventListener('DOMcontentLoaded', ()=>{
     const modal = document.getElementById('modal-wrapper');
-    modal.classList.add("active")
+    modal.classList.add("active");
 })
 
 
