@@ -53,11 +53,18 @@
   z-index: 5;
 }
 
+.aurora {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  height: 50px;
+}
+
 .about-btn {
   display: flex;
   justify-content: flex-start;
   background-color: #333;
-  height: 45px;
   color: white;
   font-family: Helvetica;
   font-size: 17px;
@@ -68,7 +75,6 @@
   display: flex;
   justify-content: flex-end;
   background-color: #333;
-  height: 45px;
   color: white;
   font-family: Helvetica;
   font-size: 17px;
@@ -80,7 +86,7 @@
 }
 
 .dropdown-content {
-  display: hidden;
+  display: none;
   position: absolute;
   border: 1px solid rgb(126, 110, 47);
   border-radius: 5px;

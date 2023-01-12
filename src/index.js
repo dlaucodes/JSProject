@@ -147,7 +147,7 @@ document.addEventListener('click', ()=> {
     });
 
 
-
+    
     const developerbtn = document.querySelector('.developer-nav')
     const dropmenu = document.querySelector('.dropdown-content')
 
@@ -156,6 +156,10 @@ document.addEventListener('click', ()=> {
     });
 
     dropmenu.addEventListener("click", () => {
+        dropmenu.classList.remove("active");
+    });
+
+    canvas.addEventListener('click', ()=>{
         dropmenu.classList.remove("active");
     });
 
