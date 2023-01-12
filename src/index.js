@@ -134,7 +134,7 @@ document.addEventListener('click', ()=> {
         audio1.play();
     })
 
-    const aboutBtn = document.querySelector('.dropbtn');
+    const aboutBtn = document.querySelector('.about-btn');
     const modal = document.querySelector('.modal-wrapper');
     const closeBtn = document.querySelector('.close-button');
 
@@ -146,19 +146,10 @@ document.addEventListener('click', ()=> {
         modal.classList.remove("active");
     });
 
-    const profileBtn = document.querySelector('.profileButton');
-    const profmod = document.querySelector(".profile-moda-wrapper");
-    
 
 
-    profileBtn.addEventListener("click", () => {
-        profmod.classList.add("active");
-        console.log('hello')
-    });
-    
-    closeBtn.addEventListener("click", () => {
-        profmod.classList.remove("active");
-    });
+    const developerbtn = document.querySelector('developer-nav')
+    const dropdown = document.querySelector('.dropdown')
 
 
 

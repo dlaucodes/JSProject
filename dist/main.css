@@ -86,6 +86,16 @@
   border: none;
 }
 
+.developer-btn {
+  background-color: #333;
+  height: 45px;
+  color: white;
+  padding: 12px 19px 12px 80px;
+  font-family: Helvetica;
+  font-size: 17px;
+  border: none;
+}
+
 .dropdown-content {
   display: none;
   text-align: left;
@@ -111,7 +121,7 @@
   display: block;
 }
 
-.dropbtn:hover {
+.about-btn:hover {
   background-color: rgb(55, 189, 219);
   color: rgb(255, 255, 255);
   cursor: pointer;
