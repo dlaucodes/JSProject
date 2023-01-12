@@ -149,19 +149,18 @@ document.addEventListener('click', ()=> {
 
     
     const developerbtn = document.querySelector('.developer-nav')
-    const dropmenu = document.querySelector('.dropdown-content')
+    const dropmenu = document.querySelector('.developer-wrapper')
+    const closeBtn2 = document.querySelector('.close-button2');
+    
 
     developerbtn.addEventListener("click", () => {
         dropmenu.classList.add("active");
     });
 
-    dropmenu.addEventListener("click", () => {
+    closeBtn2.addEventListener("click", () => {
         dropmenu.classList.remove("active");
     });
 
-    canvas.addEventListener('click', ()=>{
-        dropmenu.classList.remove("active");
-    });
 
 
 
