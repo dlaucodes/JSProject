@@ -148,8 +148,16 @@ document.addEventListener('click', ()=> {
 
 
 
-    const developerbtn = document.querySelector('developer-nav')
-    const dropdown = document.querySelector('.dropdown')
+    const developerbtn = document.querySelector('.developer-nav')
+    const dropmenu = document.querySelector('.dropdown-content')
+
+    developerbtn.addEventListener("click", () => {
+        dropmenu.classList.add("active");
+    });
+
+    dropmenu.addEventListener("click", () => {
+        dropmenu.classList.remove("active");
+    });
 
 
 
