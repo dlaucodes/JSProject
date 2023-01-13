@@ -151,6 +151,10 @@ document.addEventListener('click', ()=>{
  
 
 
+<<<<<<< HEAD
     });
+=======
+
+>>>>>>> parent of 313452f (wihtout play)
    
 });
