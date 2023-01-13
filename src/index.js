@@ -5,11 +5,40 @@
 //      const modal = document.querySelector('.modal-wrapper');
 //         modal.classList.add("active");
 //     });
+document.addEventListener('DOMContentLoaded', ()=>{
+    const aboutBtn = document.querySelector('.about-btn');
+    const modal = document.querySelector('.modal-wrapper');
+    const closeBtn = document.querySelector('.close-button');
+
+    aboutBtn.addEventListener("click", () => {
+        modal.classList.add("active");
+    });
+
+    closeBtn.addEventListener("click", () => {
+        modal.classList.remove("active");
+    });
+
+
+    
+    const developerbtn = document.querySelector('.developer-nav')
+    const dropmenu = document.querySelector('.developer-wrapper')
+    const closeBtn2 = document.querySelector('.close-button2');
+    
+
+    developerbtn.addEventListener("click", () => {
+        dropmenu.classList.add("active");
+    });
+
+    closeBtn2.addEventListener("click", () => {
+        dropmenu.classList.remove("active");
+    });
+
+
+});
 
 
 
-
-document.addEventListener('click', ()=> {
+document.addEventListener('DOMContentLoaded', ()=> {
     const container = document.getElementById('container');
     const canvas = document.getElementById('canvas1');
     const file = document.getElementById('fileupload')
@@ -134,37 +163,9 @@ document.addEventListener('click', ()=> {
         audio1.play();
     })
 
-    const aboutBtn = document.querySelector('.about-btn');
-    const modal = document.querySelector('.modal-wrapper');
-    const closeBtn = document.querySelector('.close-button');
-
-    aboutBtn.addEventListener("click", () => {
-        modal.classList.add("active");
-    });
-
-    closeBtn.addEventListener("click", () => {
-        modal.classList.remove("active");
-    });
-
-
-    
-    const developerbtn = document.querySelector('.developer-nav')
-    const dropmenu = document.querySelector('.developer-wrapper')
-    const closeBtn2 = document.querySelector('.close-button2');
-    
-
-    developerbtn.addEventListener("click", () => {
-        dropmenu.classList.add("active");
-    });
-
-    closeBtn2.addEventListener("click", () => {
-        dropmenu.classList.remove("active");
-    });
-
-
-
-
+   
 });
+
 
 
 
