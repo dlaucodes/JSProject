@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
         // audio1.muted();
         // audio1.load();
         // audio1.resume();
-        audio1.play();
+        // audio1.play();
         // audio1.resume();
     
     });
@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
     //     audio1.resume();
     //     audio1.play();
     // });
-
+document.addEventListener('click', ()=>{ 
     const audioContext = new AudioContext()
     // audio1.play();
     audioSource = audioContext.createMediaElementSource(audio1);
@@ -170,7 +170,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
  
 
 
-
+    })
    
 });
 
