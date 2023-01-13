@@ -1,10 +1,6 @@
 /*!*************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/index.scss ***!
   \*************************************************************************************************************************************/
-@import url(https: //fonts.googleapis.com/css2?family=Quicksand);
-/*!*****************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/index.scss (1) ***!
-  \*****************************************************************************************************************************************/
 @charset "UTF-8";
 * {
   margin: 0;
@@ -67,7 +63,7 @@
 
 .aurora {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: xx-large;
+  font-size: 40px;
   background: linear-gradient(110deg, rgba(53, 191, 212, 0.4823529412), #5b04c6 60%, #9d8b8b);
   position: absolute;
   color: white;
@@ -92,7 +88,7 @@
   background-color: rgba(51, 51, 51, 0);
   color: white;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "OpenSans", "Helvetica Neue", sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   border: none;
 }
 
@@ -153,7 +149,6 @@
   opacity: 30;
   color: white;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 14px;
 }
 
 .developer-about {
@@ -171,7 +166,7 @@
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  margin-top: 40px;
+  margin-top: 50px;
   margin-left: 30px;
   width: 80px;
   height: 80px;
@@ -199,8 +194,8 @@
   width: 80%;
   min-height: 70px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  border-radius: 5px;
-  font-size: 12px;
+  border-radius: 20px;
+  font-size: 14px;
   color: rgb(255, 255, 255);
   background-color: #3dcfc5;
   overflow-x: auto;
@@ -242,7 +237,7 @@
   background: linear-gradient(60deg, #0b8f8b, #9500ff);
   color: white;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   overflow-y: contain;
   overflow-x: contain;
 }
