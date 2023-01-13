@@ -25,6 +25,7 @@
   display: flex;
   padding-top: 50px;
   left: 0;
+  min-height: 200px;
   width: 100%;
   height: 100%;
   filter: contrast(5);
@@ -139,10 +140,10 @@
 
 .developer-content-inner {
   position: relative;
+  align-items: center;
   width: 450px;
   height: 150px;
   background-color: white;
-  padding: 45px 20px;
   border-radius: 20px;
   background-color: rgba(131, 164, 171, 0.737);
   color: white;
@@ -175,8 +176,6 @@
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.627);
@@ -185,10 +184,9 @@
 .modal-inner {
   position: relative;
   width: 450px;
-  height: auto;
+  min-height: 190px;
   background-color: white;
-  padding: 45px 20px;
-  border-radius: 20px;
+  border-radius: 10px;
   background-color: rgba(53, 146, 166, 0.737);
   color: white;
   font-family: Arial, Helvetica, sans-serif;
@@ -198,10 +196,21 @@
   overflow-x: contain;
 }
 
+.modal-content {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 95%;
+  height: 100%;
+}
+
 .close-button {
   position: absolute;
   top: 12px;
-  right: 120;
+  left: 12px;
   font-size: small;
   color: #5b04c6;
   font-weight: 1000;
@@ -223,7 +232,7 @@
 .close-button2 {
   position: absolute;
   top: 12px;
-  right: 120;
+  left: 12px;
   font-size: small;
   color: #5b04c6;
   font-weight: 1000;
@@ -265,4 +274,46 @@ audio::-webkit-media-controls-panel {
   padding-left: 20px;
   background-color: rgba(255, 255, 255, 0.5803921569);
   border: 1px solid rgb(44, 170, 202);
+}
+
+.github {
+  display: flex;
+  justify-content: center;
+  width: 25%;
+}
+
+.linkedin {
+  display: flex;
+  justify-content: center;
+  width: 25%;
+}
+
+.wellfound {
+  display: flex;
+  justify-content: center;
+  width: 25%;
+}
+
+.github img {
+  width: 50px;
+  height: auto;
+  border: 1px solid blue;
+}
+
+.linkedin img {
+  width: 50px;
+  height: auto;
+  border: 1px solid blue;
+}
+
+.wellfound img {
+  width: 50px;
+  height: auto;
+  border: 1px solid blue;
+}
+
+.developer-content {
+  display: flex;
+  width: 100%;
+  border: 1px solid red;
 }
