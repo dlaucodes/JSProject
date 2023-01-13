@@ -52,10 +52,11 @@ document.addEventListener('DOMContentLoaded', ()=> {
 
         // audio1.addEventListener('click, function(')
         // audio1.play();
-        audio1.muted();
-        audio1.load();
-        audio1.resume();
+        // audio1.muted();
+        // audio1.load();
+        // audio1.resume();
         audio1.play();
+        audio1.resume();
     
     });
 
