@@ -162,8 +162,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
         audio1.load();
         audio1.muted();
         audio1.resume();
-        
-        audio1.play();
+        audio1.play(e);
     })
 
    

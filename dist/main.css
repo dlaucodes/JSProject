@@ -30,7 +30,6 @@
   height: 100%;
   filter: contrast(5);
   background: rgb(49, 52, 111);
-  cursor: pointer;
 }
 
 #fileupload {
