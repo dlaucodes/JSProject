@@ -1,10 +1,6 @@
 
 
-// 
-// document.addEventListener('DOMcontentLoaded', () => {
-//      const modal = document.querySelector('.modal-wrapper');
-//         modal.classList.add("active");
-//     });
+
 document.addEventListener('DOMContentLoaded', ()=>{
     const aboutBtn = document.querySelector('.about-btn');
     const modal = document.querySelector('.modal-wrapper');
