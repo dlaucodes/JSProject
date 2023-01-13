@@ -44,16 +44,21 @@ document.addEventListener('DOMContentLoaded', ()=> {
     let audioSource;
     let analyser;       
 
-file.addEventListener('change', function(){
+    file.addEventListener('change', function(){
         const files = this.files;
         const audio1 = document.getElementById('audio1')
         audio1.src = URL.createObjectURL(files[0]);
         audio1.load();
 
+    
+    
+    });
 
+
+    
+    
 document.addEventListener('click', ()=>{ 
     const audioContext = new AudioContext()
-    // audio1.play();
     audioSource = audioContext.createMediaElementSource(audio1);
     analyser = audioContext.createAnalyser();
     audioSource.connect(analyser);
@@ -151,10 +156,11 @@ document.addEventListener('click', ()=>{
  
 
 
-<<<<<<< HEAD
-    });
-=======
-
->>>>>>> parent of 313452f (wihtout play)
+    })
    
 });
+
+
+
+
+
