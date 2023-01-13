@@ -1,6 +1,7 @@
 /*!*************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/index.scss ***!
   \*************************************************************************************************************************************/
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0px;
@@ -201,19 +202,44 @@
   position: absolute;
   top: 12px;
   right: 120;
-  font-size: x-small;
+  font-size: small;
   color: #5b04c6;
   font-weight: 1000;
   cursor: pointer;
+  transition: transform 0.25s, opacity 0.25s;
+  opacity: 0.7;
+  line-height: 1;
+}
+
+.close-btn:before {
+  content: "×";
+}
+
+.close-button:hover {
+  opacity: 1;
+  transform: rotate(90deg);
 }
 
 .close-button2 {
   position: absolute;
   top: 12px;
-  font-size: x-small;
+  right: 120;
+  font-size: small;
   color: #5b04c6;
   font-weight: 1000;
   cursor: pointer;
+  transition: transform 0.25s, opacity 0.25s;
+  opacity: 0.7;
+  line-height: 1;
+}
+
+.close-btn2:before {
+  content: "×";
+}
+
+.close-button2:hover {
+  opacity: 1;
+  transform: rotate(90deg);
 }
 
 .active {
