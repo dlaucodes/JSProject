@@ -119,6 +119,7 @@
     background-color: rgb(140, 0, 255);
     height: 30px;
     width: 100px;
+    animation: 2s ease-out 0s 1 fadein
 }
 
 
@@ -213,14 +214,13 @@
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2)
 }
 
-.dropdown:hover .dropdown-content {
-    display: block;
-}
+
 
 .about-btn:hover {
     background-color: rgb(55, 189, 219);
     color: rgb(255, 255, 255);
     cursor: pointer;
+    animation: 2s ease-out 0s 1 fadein
 }
 
 @keyframes fadein {
