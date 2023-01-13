@@ -149,17 +149,20 @@ document.addEventListener('DOMContentLoaded', ()=> {
 
         audio1.addEventListener('click, function(')
         audio1.play();
+        audio1.muted() = true;
     
     })
 
 
     
-    file.addEventListener('click', ()=>{
+    file.addEventListener('click', (e)=>{
         const files = this.files;
         const audio1 = document.getElementById('audio1')
         audio1.src = URL.createObjectURL(files[0]);
         audio1.load();
+        audio1.muted() = true;
         audio1.resume();
+        
         audio1.play();
     })
 
