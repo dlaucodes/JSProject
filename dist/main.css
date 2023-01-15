@@ -302,13 +302,19 @@
   border: 1px solid red;
 }
 
+.upload-file input[type="file"]{
+  -webkit-appearance: none;
+  opacity: 1;
+  width: 100%;
+
+}
+
 #fileupload {
   display: flex;
-  
   color: white;
   cursor: pointer;
-  border: 1px solid rgb(44, 170, 202);
-  border-radius: 40px;
+  border: 1px solid blue;
+  width: 200px;
 }
 
 .audio-controls{
@@ -325,10 +331,9 @@
 }
 
 audio::-webkit-media-controls-panel {
-  padding-left: 20px;
-  background-color: rgba(255, 255, 255, 0.5803921569);
-  border: 1px solid rgb(44, 170, 202);
+  background: linear-gradient(110deg, #5032e6, #cdcece, #15e2c0);
 }
+
 
 .github {
   display: flex;
