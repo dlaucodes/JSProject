@@ -29,17 +29,8 @@ document.addEventListener('DOMContentLoaded', ()=>{
         dropmenu.classList.remove("active");
     });
 
-    const audioMenu = document.querySelector('.audio-button');
-    const audioSelect = document.querySelector('.audio-list-wrapper');
-
-    audioMenu.addEventListener("click", () => {
-        audioSelect.classList.add("active");
-        
-    });
-
 
 });
-
 
 
 
@@ -47,7 +38,6 @@ document.addEventListener('DOMContentLoaded', ()=> {
     const container = document.getElementById('container');
     const canvas = document.getElementById('canvas1');
     const file = document.getElementById('fileupload')
-    const file2 = document.getElementById('fileupload2')
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
     const ctx = canvas.getContext('2d');
@@ -59,14 +49,10 @@ document.addEventListener('DOMContentLoaded', ()=> {
         const audio1 = document.getElementById('audio1')
         audio1.src = URL.createObjectURL(files[0]);
         audio1.load();
-    });
 
-    //  file2.addEventListener('change', function(){
-    //     const files2 = this.files;
-    //     const audio2 = document.getElementById('audio1')
-    //     audio2.src = URL.createObjectURL(files2[0]);
-    //     audio2.load();
-    // });
+    
+    
+    });
 
 
     
@@ -171,8 +157,6 @@ document.addEventListener('click', ()=>{
 
 
     })
-
- 
    
 });
 
