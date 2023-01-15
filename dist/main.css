@@ -10,14 +10,13 @@
 
 .container {
   display: flex;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: space-evenly;
   position: absolute;
-  padding: 12px 0px 0px 0px;
   bottom: 0;
   background: rgba(51, 51, 51, 0.498);
   width: 100%;
-  height: 50px;
-  overflow: hidden;
+  height: 70px;
 }
 
 #canvas1 {
@@ -30,19 +29,6 @@
   height: 100%;
   filter: contrast(5);
   background: rgb(49, 52, 111);
-}
-
-#fileupload {
-  display: flex;
-  justify-content: flex-end;
-  position: absolute;
-  bottom: 0;
-  right: 50px;
-  margin-bottom: 15px;
-  color: white;
-  cursor: pointer;
-  border: 1px solid rgb(44, 170, 202);
-  border-radius: 40px;
 }
 
 .topnav {
@@ -306,19 +292,38 @@
   z-index: 1999;
 }
 
-.selectfile {
+.audio-player {
   display: flex;
+  justify-content: center;
+  border: 1px solid red;
 }
 
-#audio1 {
-  padding-left: 30px;
-  height: 59%;
+.file-upload {
+  border: solid 1px red;
 }
 
-audio::-webkit-media-controls-panel {
-  padding-left: 20px;
-  background-color: rgba(255, 255, 255, 0.5803921569);
-  border: 1px solid rgb(44, 170, 202);
+.audio-menu {
+  border: 1px solid red;
+}
+
+.audio-list {
+  position: absolute;
+  color: white;
+  height: 90px;
+  width: 90px;
+  border: red 1px solid;
+  bottom: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.audio-list-wrapper {
+  display: none;
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  bottom: 0;
+  right: 0;
 }
 
 .github {
