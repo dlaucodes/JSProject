@@ -229,7 +229,7 @@
 
 .modal-inner {
   position: relative;
-  width: 450px;
+  width: 250px;
   min-height: 190px;
   background-color: white;
   border-radius: 10px;
@@ -244,10 +244,10 @@
 .modal-content {
   display: flex;
   position: absolute;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  margin-left: 2%;
-  margin-right: 2%;
+  margin-left: 3%;
+  margin-right: 3%;
   width: 95%;
   height: 100%;
 }
