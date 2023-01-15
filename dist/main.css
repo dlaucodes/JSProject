@@ -14,9 +14,9 @@
   justify-content: space-between;
   position: absolute;
   bottom: 0;
-  background: linear-gradient(360deg, #00e5ff88, #9500ff87,#ffffff00);
+  background: linear-gradient(360deg,#00e5ff88, #9500ffc0,#ffffff00);
   width: 100%;
-  height: 40px;
+  height: 55px;
 }
 
 #canvas1 {
