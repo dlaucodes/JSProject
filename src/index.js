@@ -14,8 +14,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
         modal.classList.remove("active");
     });
 
-
-    
+        
     const developerbtn = document.querySelector('.developer-nav')
     const dropmenu = document.querySelector('.developer-wrapper')
     const closeBtn2 = document.querySelector('.close-button2');
@@ -29,12 +28,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
         dropmenu.classList.remove("active");
     });
 
-
-});
-
-
-
-document.addEventListener('DOMContentLoaded', ()=> {
+    
     const container = document.getElementById('container');
     const canvas = document.getElementById('canvas1');
     const file = document.getElementById('fileupload')
@@ -54,7 +48,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
 
     
     
-document.addEventListener('DOMContentLoaded', ()=>{ 
+
     const audioContext = new AudioContext()
     audioSource = audioContext.createMediaElementSource(audio1);
     analyser = audioContext.createAnalyser();
@@ -153,10 +147,8 @@ document.addEventListener('DOMContentLoaded', ()=>{
  
 
 
-    })
    
 });
-
 
 
 
