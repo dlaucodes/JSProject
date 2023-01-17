@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
 
     
     
-document.addEventListener('click', ()=>{ 
+document.addEventListener('DOMContentLoaded', ()=>{ 
     const audioContext = new AudioContext()
     audioSource = audioContext.createMediaElementSource(audio1);
     analyser = audioContext.createAnalyser();
