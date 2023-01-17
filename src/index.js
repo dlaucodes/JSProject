@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
     });
 
     
-    const container = document.getElementById('container');
+    
     const canvas = document.getElementById('canvas1');
     const file = document.getElementById('fileupload')
     canvas.width = window.innerWidth;
@@ -45,9 +45,6 @@ document.addEventListener('DOMContentLoaded', ()=>{
         audio1.load();
     });
 
-
-    
-    
 
     const audioContext = new AudioContext()
     audioSource = audioContext.createMediaElementSource(audio1);
