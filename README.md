@@ -29,7 +29,7 @@ Music Visualization is implemented on canvas which takes in a sound input source
 Working Screenshot:
 <br>
 <p>
-<img src="https://github.com/dlaucodes/JSProject/blob/main/assets/ss.png">
+<img src="https://github.com/dlaucodes/JSProject/blob/main/assets/aurora-demo.gif">
 </p>
 
 
