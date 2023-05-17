@@ -9,7 +9,6 @@
 <br>
 
 ## Demo and Functionality
-<br>
 <p>
     <img src="https://github.com/dlaucodes/JSProject/blob/main/assets/demo.gif">
 </p>
